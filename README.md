@@ -45,9 +45,7 @@ For the interrupt-driven version, I implemented different functions to handle th
 
 In the "sw_interrupt()" function, I first read the register where the switches are written. Then, I call my "nombre_bits_a_1()" function, which returns the number of bits set to 1 in the register. Based on this number, I modify the "time" variable to adjust the speed of the LED chaser.
 
-[Video link for switch interrupt demonstration](https://user-images.githubusercontent.com/24780090/211770309-
-
-9cf0fed9-7302-426b-9a08-b7b0f3c441d1.mov)
+[Video link for switch interrupt demonstration](https://user-images.githubusercontent.com/24780090/211770309-9cf0fed9-7302-426b-9a08-b7b0f3c441d1.mov)
 
 # Conclusion
 
